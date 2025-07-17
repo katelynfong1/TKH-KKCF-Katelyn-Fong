@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>TIGERLILY</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Averia Serif Libre">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo Black">
+    <style>
+        body {
+            background-color: #ECE0DA;
+            color: #7E8C69;
+        }
+
+        p,
+        .form-control,
+        #physicalUl,
+        #emotionalUl,
+        #intellectualUl,
+        #socialUl,
+        #spiritualUl,
+        #occupationalUl,
+        #environmentalUl,
+        #financialUl {
+            font-family: 'Averia Serif Libre';
+        }
+
+        nav,
+        h1,
+        h2 {
+            font-family: 'Archivo Black';
+            font-size: large;
+        }
+
+        .btn {
+            color: #7E8C69;
+            background-color: #ECE0DA;
+            border-style: solid;
+            border-color: #7E8C69;
+            border-width: 2px;
+        }
+
+        .navbar {
+            background-color: rgba(246, 176, 187, 0.6);
+            border-bottom: 3px solid #7E8C69;
+        }
+
+        .nav-item .nav-link {
+            color: #7E8C69;
+        }
+
+        .navbar-brand {
+            font-size: xx-large;
+        }
+
+        .form-control {
+            color: #7E8C69 !important;
+        }
+
+        .form-control::placeholder {
+            color: #7E8C69 !important;
+        }
+
+        #purpose {
+            border-style: solid;
+            border-color: #7E8C69;
+            border-width: 3px;
+            border-radius: 20px;
+            background-color: rgba(241, 200, 203, 0.7);
+        }
+
+        #dimensionsCol,
+        #todo {
+            border-style: solid;
+            border-color: #F6B0BB;
+            border-width: 3px;
+            border-radius: 20px;
+            background-color: rgba(241, 200, 203, 0.7);
+        }
+
+        #aboutTheCreator,
+        #contact {
+            border-style: solid;
+            border-color: #F6B0BB;
+            border-width: 3px;
+            border-radius: 20px;
+        }
+
+        #decalLeft,
+        #decalRight {
+            max-width: 8%;
+        }
+
+        #sundayForm,
+        #mondayForm,
+        #tuesdayForm,
+        #wednesdayForm,
+        #thursdayForm,
+        #fridayForm,
+        #saturdayForm {
+            border-style: solid;
+            border-color: #F6B0BB;
+            border-width: 3px;
+            background-color: rgba(241, 200, 203, 0.7);
+        }
+
+        #gridTopRow {
+            border-top: 3px solid #7E8C69;
+            border-bottom: 3px solid #7E8C69;
+            background-color: rgba(241, 200, 203, 0.7);
+        }
+
+        #gridBottomRow {
+            border-bottom: 3px solid #7E8C69;
+            background-color: rgba(241, 200, 203, 0.7);
+        }
+
+        #sundayCol,
+        #thursdayCol {
+            border-left: 3px solid #7E8C69;
+        }
+
+        #sundayCol,
+        #mondayCol,
+        #tuesdayCol,
+        #wednesdayCol,
+        #thursdayCol,
+        #fridayCol,
+        #saturdayCol {
+            border-right: 3px solid #7E8C69;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg p-4">
+        <div class="container-fluid p-0">
+            <a class="navbar-brand ms-2" href="#" style="color: #7E8C69;">TIGERLILY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href='second-page.html'
+                            style="color: #7E8C69;">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href='third-page.html'>TO-DO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href='fourth-page.html'>FITNESS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href='fifth-page.html'>MEAL PLAN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href='sixth-page.html'>BUDGETING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href='seventh-page.html'>JOURNAL</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn" type="submit">Enter</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row mt-4 mx-2">
+            <h2 class="display-6">
+                FITNESS
+            </h2>
+        </div>
+        <div class="row mt-4 mx-4" id="gridTopRow">
+            <div class="col" id="sundayCol">
+                <h2 class="text-center mt-3">
+                    SUNDAY
+                </h2>
+                <div class="form-group p-2 mb-3">
+                    <textarea class="form-control p-3" rows="4" id="sundayForm" placeholder="Write here"></textarea>
+                </div>
+            </div>
+            <div class="col" id="mondayCol">
+                <h2 class="text-center mt-3">
+                    MONDAY
+                </h2>
+                <div class="form-group p-2 mb-3">
+                    <textarea class="form-control p-3" rows="4" id="mondayForm" placeholder="Write here"></textarea>
+                </div>
+            </div>
+            <div class="col" id="tuesdayCol">
+                <h2 class="text-center mt-3">
+                    TUESDAY
+                </h2>
+                <div class="form-group p-2 mb-3">
+                    <textarea class="form-control p-3" rows="4" id="tuesdayForm" placeholder="Write here"></textarea>
+                </div>
+            </div>
+            <div class="col" id="wednesdayCol">
+                <h2 class="text-center mt-3">
+                    WEDNESDAY
+                </h2>
+                <div class="form-group p-2 mb-3">
+                    <textarea class="form-control p-3" rows="4" id="wednesdayForm" placeholder="Write here"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="row mx-4" id="gridBottomRow">
+            <div class="col" id=thursdayCol>
+                <h2 class="text-center mt-3">
+                    THURSDAY
+                </h2>
+                <div class="form-group p-2 mb-3">
+                    <textarea class="form-control p-3" rows="4" id="thursdayForm" placeholder="Write here"></textarea>
+                </div>
+            </div>
+            <div class="col" id="fridayCol">
+                <h2 class="text-center mt-3">
+                    FRIDAY
+                </h2>
+                <div class="form-group p-2 mb-3">
+                    <textarea class="form-control p-3" rows="4" id="fridayForm" placeholder="Write here"></textarea>
+                </div>
+            </div>
+            <div class="col" id="saturdayCol">
+                <h2 class="text-center mt-3">
+                    SATURDAY
+                </h2>
+                <div class="form-group p-2 mb-3">
+                    <textarea class="form-control p-3" rows="4" id="saturdayForm" placeholder="Write here"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="row m-4 d-flex justify-content-center align-items-center">
+            <div class="col-lg m-2 p-0">
+                <img src="./images/TKH Footer Logo.png" alt="footer logo" class="img-fluid w-100">
+            </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+            crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>

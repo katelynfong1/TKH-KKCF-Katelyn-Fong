@@ -4,53 +4,53 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>TIGERLILY</title>
+  <title>Katelyn Fong</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Averia Serif Libre">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo Black">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cardo">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas Neue">
   <style>
     body {
-      background-color: #ECE0DA;
-      color: #7E8C69;
+      background-color: #9FC3E9;
+      color: #042069;
     }
 
     p,
     .form-control,
-    #physicalUl,
-    #emotionalUl,
-    #intellectualUl,
-    #socialUl,
-    #spiritualUl,
-    #occupationalUl,
-    #environmentalUl,
-    #financialUl {
-      font-family: 'Averia Serif Libre';
+    #skillsUl,
+    #apCompsciUl,
+    #prosperpathUl,
+    #tigerlilyUl,
+    #cybersecurityUl,
+    #itManagerUl,
+    #productDesignerUl,
+    #interestsUl {
+      font-family: 'Cardo';
     }
 
     nav,
     h1,
     h2 {
-      font-family: 'Archivo Black';
+      font-family: 'Bebas Neue';
       font-size: large;
     }
 
     .btn {
-      color: #7E8C69;
-      background-color: #ECE0DA;
+      color: #042069;
+      background-color: #5A93DB;
       border-style: solid;
-      border-color: #7E8C69;
+      border-color: #042069;
       border-width: 2px;
     }
 
     .navbar {
-      background-color: rgba(246, 176, 187, 0.6);
-      border-bottom: 3px solid #7E8C69;
+      background-color: #042069;
+      border-bottom: 3px solid #5A93DB;
     }
 
     .nav-item .nav-link {
-      color: #7E8C69;
+      color: #042069;
     }
 
     .navbar-brand {
@@ -58,40 +58,74 @@
     }
 
     .form-control {
-      color: #7E8C69 !important;
+      color: #042069 !important;
     }
 
     .form-control::placeholder {
-      color: #7E8C69 !important;
+      color: #042069 !important;
     }
 
-    #purpose {
-      border-style: solid;
-      border-color: #7E8C69;
+    #skills {
+      border-style: dotted;
+      border-color: #042069;
       border-width: 3px;
       border-radius: 20px;
-      background-color: rgba(241, 200, 203, 0.7);
+      background-color: rgba(90, 147, 219, 0.8);
     }
 
-    #dimensionsCol {
-      border-style: solid;
-      border-color: #F6B0BB;
+    #techProjectsCol {
+      border-style: dotted;
+      border-color: #042069;
       border-width: 3px;
       border-radius: 20px;
-      background-color: rgba(241, 200, 203, 0.7);
+      background-color: rgba(90, 147, 219, 0.4);
     }
 
-    #aboutTheCreator,
+    #interests,
+    #careerAspirations {
+      background-color: rgba(90, 147, 219, 0.8);
+      border-style: dotted;
+      border-color: #042069;
+      border-width: 3px;
+      border-radius: 20px;
+    }
+
+    #klfGif {
+      max-width: 40%;
+    }
+
+    #candidPhoto {
+      border-style: solid;
+      border-color: #042069;
+      border-width: 3px;
+      border-radius: 20px;
+    }
+
     #contact {
+      color: #FFFFFF;
       border-style: solid;
-      border-color: #F6B0BB;
+      border-color: #5A93DB;
       border-width: 3px;
       border-radius: 20px;
+      background-color: #042069;
     }
 
-    #decalLeft,
-    #decalRight {
-      max-width: 8%;
+    #visitTigerlilyBtn {
+      color: #042069;
+      background-color: #9FC3E9;
+      border-color: #5A93DB;
+    }
+
+    #klfImage1 {
+      max-width: 80%
+    }
+
+    #klfImage2 {
+      max-width: 90%
+    }
+
+    #klfLogo {
+      max-width: 15%;
     }
   </style>
 </head>
@@ -99,39 +133,19 @@
 <body>
   <nav class="navbar navbar-expand-lg p-4">
     <div class="container-fluid p-0">
-      <a class="navbar-brand ms-2" href="#" style="color: #7E8C69;">TIGERLILY</a>
+      <img src="./images/TKH KLF Logo.png" class="img-fluid" alt="portfolio image 1" id="klfLogo">
+      <a class="navbar-brand ms-2" href='index.html' style="color: #FFFFFF;">Katelyn Fong</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#" style="color: #7E8C69;">HOME</a>
+            <a class="nav-link active" aria-current="page" href='index.html' style="color: #FFFFFF;">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">TO-DO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">FITNESS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">MEAL PLAN</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">BUDGETING</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">JOURNAL</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              MORE
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">SETTINGS</a></li>
-              <li><a class="dropdown-item" href="#">CONTACT</a></li>
-            </ul>
+          <li class="nav-item ms-3">
+            <button id="visitTigerlilyBtn" onclick="location.href='second-page.html'">Visit TIGERLILY</button>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -140,132 +154,130 @@
         </form>
       </div>
     </div>
+    </div>
   </nav>
+  <div class="container-fluid">
+    <div class="row d-flex justify-content-center mt-4 p-0 align-items-center">
+      <img src="./images/TKH KLF Gif.GIF" class="img-fluid" alt="KLF gif" id="klfGif">
+    </div>
+  </div>
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm p-0">
         <header>
-          <h1 class="display-3 m-0 p-4 text-center">
-            <img src="./images/TKH Decal.png" class="img-fluid" alt="header" id="decalLeft">
-            WELCOME TO TIGERLILY
-            <img src="./images/TKH Decal.png" class="img-fluid" alt="header" id="decalRight">
+          <h1 class="display-3 m-0 px-4 pt-3 text-center">
+            Hello everyone, my name is Katelyn Fong.
           </h1>
         </header>
       </div>
     </div>
-    <div class="row">
-      <div class="col">
-      </div>
+    <div class="row mx-3">
+      <p>
+        I’m an organized, diligent rising senior in high school with excellent time
+        management, strong communication, and creativity beyond coding skills. When I participated in my <strong>Yale
+          Entrepreneurial Society tech-intensive fellowship</strong>, I put my JavaScript, Python, HTML, CSS and Figma
+        skills to
+        use, and created a simple website for my company <strong>ProsperPath</strong>. ProsperPath made financial
+        literacy accessible to
+        low-income individuals and small businesses owners. Additionally, through my <strong>AP Computer Science
+          Principles</strong>
+        course and my current tech-intensive fellowship at <strong>KKCF</strong>, I hope to continue honing my coding
+        and collaboration
+        skills. I will be working on another company, <strong>Tigerlily</strong>, a wellness tracker with algorithms for
+        to-do,
+        budgeting, fitness, and journaling features. I am truly interested in how technology can streamline companies’
+        financial processes, defend against cybersecurity attacks, and assist in the development of practical and
+        innovative products. I am hoping to enter the tech field as an intern!
+      </p>
     </div>
     <div class="row d-flex align-items">
-      <div class="col-sm mx-4 mb-4 p-0">
-        <aside class="ms-2">
-          <div id="purpose">
+      <div class="col-sm ms-4 me-3 mb-4 p-0">
+        <aside>
+          <div class="row d-flex justify-content-center mb-4 align-items-center">
+            <img src="./images/TKH KLF Image 1.png" class="img-fluid" alt="portfolio image 1" id="klfImage1">
+          </div>
+          <div class="ms-2" id="skills">
             <header>
               <h2 class="display-6 m-3 px-3 pt-2 text-center">
-                PURPOSE
+                Skills
               </h2>
             </header>
             <div class="row m-3">
-              <div class="col text-center">
-                <p>
-                  Tigerlily is a platform to enhance and track your dimensions of wellness. Please
-                  enjoy the to-do list, fitness, meal plan, budgeting, and journal features in this aesthetic workspace.
-                </p>
+              <div class="col">
+                <ul id="skillsUl">
+                  <li>
+                    JavaScript, Python, HTML, CSS, & Figma
+                  </li>
+                  <li>
+                    Microsoft Office Suite, Google Workspace, Windows 11, iOS
+                  </li>
+                  <li>
+                    One unique skill I bring to any workplace would be my excellent time management as demonstrated by
+                    my 4.0 GPA as a dual student athlete and captain of both my varsity swim and water polo teams.
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-          <div class="row m-3">
-            <img src="./images/TKH Decal 2.png" class="img-fluid mt-4" alt="decal 2">
-          </div>
         </aside>
       </div>
-      <div class="col-sm mx-4 mb-4 p-0">
-        <main class="m-0">
-          <div class="container-fluid p-0" id="dimensionsCol">
+      <div class="col-sm ms-3 me-4 mb-4 p-0">
+        <main class="me-2">
+          <div class="container-fluid p-0" id="techProjectsCol">
             <header>
               <h2 class="display-6 m-3 px-3 pt-2 text-center">
-                DIMENSIONS OF WELLNESS
+                Technical Projects
               </h2>
             </header>
             <div class="row m-3">
               <div class="col m-0">
-                <p>
-                  Wellness involves eight interconnected dimensions: physical, intellectual, emotional, social,
-                  spiritual, occupational, financial, and environmental. It is known that neglect towards any of the
-                  dimensions can negatively impact the others, ultimately affecting your overall health, well-being, and
-                  quality of life. However, a perfect balance isn't suggested; rather an authentic "personal harmony"
-                  that aligns with your individual proiorities and values should be strived for.
-                </p>
                 <h2>
-                  PHYSICAL
+                  AP Computer Science Portfolio
                 </h2>
-                <ul class="m-2" id="physicalUl">
+                <ul class="m-2" id="apCompsciUl">
                   <li>
-                    Encompasses all aspects of your body's health including, nutrition,
-                    exercise, weight management, ergonomics, tobacco use, disease, disease prevention, and more
+                    Developed a mobile app utilizing JavaScript that selected the most suitable dog breed type according
+                    to 4 of the user’s preferences, with an accuracy rate of 95%
+                  </li>
+                  <li>
+                    Implemented system that categorized 450 dog breeds by size, breed, fur color, and estimated adoption
+                    cost
+                  </li>
+                  <li>
+                    Managed data through lists, organized code into smaller functions through parameters, and handled
+                    different inputs through loops and conditional statements
                   </li>
                 </ul>
                 <h2>
-                  EMOTIONAL
+                  ProsperPath AI/ML Startup
                 </h2>
-                <ul class="m-2" id="emotionalUl">
+                <ul class="m-2" id="prosperpathUl">
                   <li>
-                    Encompasses all aspects of wellbeing regarding your knowledge and skills to identify personal
-                    feelings, then handle those emotions properly
+                    Developed a finance-based AI/ML startup and launched a website as a Minimum Viable Product that
+                    aimed to teach financial literacy to low-income individuals or small businesses
+                  </li>
+                  <li>
+                    Coded algorithms with JavaScript, Python, and HTML that took user’s input and categorized spending
+                    into 8 categories, created a visual diagram, set budgeting goals, and suggested investments
+                  </li>
+                  <li>
+                    Utilized Figma to create wireframes for mobile and desktop devices
+                  </li>
+                  <li>
+                    Delivered a pitch of final project to investors, including Minimum Viable Product, logistical
+                    infographics, and estimated operating budget and projected monthly revenue based on market trends
                   </li>
                 </ul>
                 <h2>
-                  INTELLECTUAL
+                  TIGERLILY Wellness Tracker
                 </h2>
-                <ul class="m-2" id="intellectualUl">
+                <ul class="m-2" id="tigerlilyUl">
                   <li>
-                    Encompasses all aspects of your brain health and growth achieved through engaging in
-                    though-provoking mental activities
+                    Created a wellness tracker website utilizing HTML, CSS, and JavaScript with to-do, fitness, meal
+                    plan, budgeting, and journaling features
                   </li>
-                </ul>
-                <h2>
-                  SOCIAL
-                </h2>
-                <ul class="m-2" id="socialUl">
                   <li>
-                    Encompasses all aspects of wellbeing related to your social connections, relationships, and personal
-                    expression
-                  </li>
-                </ul>
-                <h2>
-                  SPIRITUAL
-                </h2>
-                <ul class="m-2" id="spiritualUl">
-                  <li>
-                    Encompasses all aspects of wellbeing pertaining to your search for purpose and meaning in life
-                  </li>
-                </ul>
-                <h2>
-                  OCCUPATIONAL
-                </h2>
-                <ul class="m-2" id="occupationalUl">
-                  <li>
-                    Encompasses all aspects relating to your feelings of personal fulfillment and satisfation in your
-                    work life
-                  </li>
-                </ul>
-                <h2>
-                  ENVIRONMENTAL
-                </h2>
-                <ul class="m-2" id="environmentalUl">
-                  <li>
-                    Encompasses all aspects of the relationship between your environment and your health, including how
-                    your surroundings can impact your well-being
-                  </li>
-                </ul>
-                <h2>
-                  FINANCIAL
-                </h2>
-                <ul class="m-2" id="financialUl">
-                  <li>
-                    Encompasses all aspects of your financial health, encompassing your understanding and ability to
-                    plan your finances and manage your expenses effectively
+                    Utilized Figma to create wireframes for desktop devices
                   </li>
                 </ul>
               </div>
@@ -273,78 +285,95 @@
           </div>
         </main>
       </div>
+    </div>
+    <div class="row d-flex align-items">
       <div class="col-sm mx-4 mb-4 p-0">
-        <aside class="m-4">
-          <div class="row">
-            <figure class="figure-img img-fluid m-0 p-0">
-              <img src="./images/TKH Logo.png" class="img-fluid mb-4" alt="logo">
-            </figure>
-            <div class="col p-0">
-              <div class="mb-4" id="aboutTheCreator">
-                <h2 class="display-6 m-3 px-3 pt-2 text-center">
-                  ABOUT THE CREATOR
-                </h2>
-                <p class="text-center px-4">
-                  Hello Tigerlily user, I’m Katelyn Lily F., the creator of Tigerlily. I'm an organized,
-                  diligent rising senior in high school with excellent time management, strong communication, and
-                  creativity beyond coding skills. When I participated in my Yale Entrepreneurial Society tech-intensive
-                  fellowship, I put my JavaScript, Python, HTML, and Figma skills to use, and created a simple website
-                  for my company ProsperPath. ProsperPath made financial literacy accessible to low-income individuals
-                  and small businesses owners. Additionally, through my AP Computer Science Principles course and my
-                  current tech-intensive fellowship at KKCF, I am continuing to hone my coding and collaboration
-                  skills. I am working on this company, Tigerlily, a wellness tracker with to-do,
-                  fitness, meal plan, budgeting and journaling features. I am truly interested in how technology can
-                  streamline
-                  companies’ financial processes and hope to enter the tech field as an intern!
-                </p>
-              </div>
-              <div id="contact">
-                <h2 class="display-6 m-3 px-3 pt-2 text-center">
-                  CONTACT
-                </h2>
-                <p class="text-center">
-                  Email: tigerlily@tigerlily.com
-                </p>
-              </div>
+        <div class="row">
+          <div class="col p-0 mx-4">
+            <div class="mb-4" id="interests">
+              <h2 class="display-6 m-3 px-3 pt-2 text-center">
+                Interests
+              </h2>
+              <ul id="interestsUl">
+                <li>
+                  Business Finance
+                </li>
+                <li>
+                  Cybersecurity
+                </li>
+                <li>
+                  Aerospace & Defense
+                </li>
+                <li>
+                  Product Design
+                </li>
+                <li>
+                  Entrepreneurship
+                </li>
+              </ul>
             </div>
           </div>
-        </aside>
-      </div>
-    </div>
-    <div class="row m-4 d-flex justify-content-center align-items-center">
-      <div class="col-lg m-2 p-0">
-        <img src="./images/TKH Footer Logo.png" alt="footer logo" class="img-fluid w-100">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <h2 class="display-6 text-center p-3">
-          DESIGN
-        </h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm m-4">
-        <h2 class="text-center mb-4">
-          PORTFOLIO STYLE GUIDE
-        </h2>
-        <img src="./images/TKH Portfolio Style Guide.pdf.png" alt="portfolio style guide" class="img-fluid">
-        <img src="./images/TKH Decal 2 Portfolio Style Guide.png" alt="decal 2 portfolio style guide" class="img-fluid">
-      </div>
-      <div class="col-sm m-4">
-        <h2 class="text-center mb-4">
-          FIGMA WIREFRAME DESIGN V.2
-        </h2>
-        <img src="./images/TKH Portfolio Wireframe Modified.pdf.png" alt="modified wireframe" class="img-fluid">
-        <h2 class="text-center m-4">
-          FIGMA WIREFRAME DESIGN V.1
-        </h2>
-        <img src="./images/TKH Portfolio Wireframe.pdf.png" alt="wireframe" class="img-fluid">
+          <div class="col p-0">
+            <div class="row d-flex justify-content-center mb-4 align-items-center">
+              <img src="./images/TKH KLF Image 2.png" class="img-fluid" alt="portfolio image 1" id="klfImage2">
+            </div>
+            <div class="mb-3 px-3" id="careerAspirations">
+              <h2 class="display-6 m-3 px-3 pt-2 text-center">
+                Career Aspirations
+              </h2>
+              <h2>
+                Cybersecurity Analyst
+              </h2>
+              <ul class="m-2" id="cybersecurityUl">
+                <li>
+                  I want to protect the organization's computer networks and systems from attacks.
+                </li>
+                <li>
+                  Companies I would like to work at: Northrop Grumman, Boeing, Lockheed Martin
+                </li>
+              </ul>
+              <h2>
+                IT Manager / Director
+              </h2>
+              <ul class="m-2" id="itManagerUl">
+                <li>
+                  I want to use my tech background to oversee IT operations, teams, and strategy.
+                </li>
+                <li>
+                  Companies I would like to work at: Fidelity, JPMorgan Chase, Bank of America
+                </li>
+              </ul>
+              <h2>
+                Product Designer
+              </h2>
+              <ul class="m-2 mb-3" id="productDesignerUl">
+                <li>
+                  I want to use my creative background to develop the UX and my technical background to develop the
+                  UI.
+                </li>
+                <li>
+                  Companies I would like to work at: Google, Apple, Stripe, Chime, Klarna, Notion,
+                  Slack, Gusto, Startups
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col p-0 mx-4">
+            <img src="./images/TKH Candid Photo.png" class="img-fluid me-3 mb-4" alt="candid photo" id="candidPhoto">
+            <div id="contact">
+              <h2 class="display-6 m-3 px-3 pt-2 text-center">
+                Contact
+              </h2>
+              <p class="text-center">
+                Email: katelynfong1@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  </div>
-  </div>
+
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
